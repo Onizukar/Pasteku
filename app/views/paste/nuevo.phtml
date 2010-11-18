@@ -1,0 +1,16 @@
+<fieldset>
+    <legend>Nuevo Post</legend>
+<?php
+View::content();
+echo form_tag("paste/nuevo");
+echo '<label for = paste[titulo] > Titulo: </label>'.text_field_tag('paste.titulo', 'size: 50');
+
+echo '<br/>'.textarea_tag('paste.post');
+
+echo '<br/><label for = paste[expiracion] > Borrar despues de: </label>'.select_tag('paste[expiracion]',array("n" => "Nunca", "m" => "10 Minutos","h" => "1 Hora","d" => "1 Dia","e" => "1 Mes"), 'selected: ');
+echo '<label for = paste[syntax] > Sintaxis: </label>'.select_tag('paste[syntax]',array("Plain" => "Seleccione...", "Php" => "php", "Plain" => "text","Sql" => "sql", "Xml" => "xml","Css" => "css","Xml" => "html","JScript" => "javascript"));
+
+echo submit_tag('Enviar');
+echo end_form_tag();
+?>
+</fieldset>

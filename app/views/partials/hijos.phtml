@@ -1,0 +1,13 @@
+<div id ="versiones">
+<?php
+if(is_array($hijos)){
+    if(count($hijos)>0){
+        echo '<h1>Versiones derivadas</h1><ol>';
+        foreach($hijos as $hijo):
+            echo '<li>'.link_to('ver/'.$hijo->id, $hijo->titulo.' - '.$hijo->creado_at).'</li>';
+        endforeach;
+        echo '</ol>';
+    }
+}
+?>
+</div>

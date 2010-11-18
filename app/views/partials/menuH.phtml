@@ -1,0 +1,13 @@
+<ul id="menuH">
+<?php
+echo '<li>'.link_to('nuevo','Nuevo post').'</li>';
+echo '<li><a href="#" id = editve >Nueva version</a></li>';
+echo '<li>'.link_to('sf/'.$id,'Ver sin formato').'</li>';
+echo '<li>'.link_to('paste/descargar/'.$id,'Descargar').'</li>';
+if(is_int($padre) and $padre != 0){
+    echo '<li>'.link_to('ver/'.$padre,'Version anterior').'</li>';
+    echo '<li>'.link_to('paste/comparar/'.$padre,'Comparar').'</li>';
+}
+?>
+</ul>
+<div class="clear"></div>

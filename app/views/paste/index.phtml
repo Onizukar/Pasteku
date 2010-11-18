@@ -1,0 +1,63 @@
+<?php
+View::content();
+if(isset($paste) and is_object($paste)){
+    
+    View::partial('menuH',false,array('id' => $paste->id, 'padre' => $paste->padre));
+    
+    echo javascript_include_tag('syntax/brush/shCore');
+    $syntax = $paste->syntax;
+    echo javascript_include_tag("syntax/brush/shBrush$syntax");
+    $syntaxx = brush_alias($syntax);
+    $post = str_replace('<','&#60;',$paste->post);
+    $titulo = $paste->titulo;
+    
+    //echo "<div id = coderZone ><H2>Codigo { $syntaxx } $titulo </H2><pre id = coder class='brush: $syntaxx;'>$post</pre></div>";
+    echo "<div id = coderZone ><H2>$titulo { $syntaxx }</H2><pre id = coder class='brush: $syntaxx;'>$post</pre> <a href= http://twitter.com/share  class= twitter-share-button  data-count= horizontal data-via= SocialKode data-related= KumbiaPHP  data-lang= es >Tweet</a><script type= text/javascript  src= http://platform.twitter.com/widgets.js ></script>";
+    
+    echo '| Visto # '.$paste->visitas.' veces';
+    echo "</div>";
+    
+    if(isset($hijos)){
+        View::partial('hijos',false,array('hijos'=>$hijos));
+    }
+    echo '<fieldset id = editv ><legend>Nueva version</legend>';
+    /*if(is_int($paste->padre)){
+        echo link_to('paste/index/'.$paste->padre,'Version anterior');
+        echo ' '.link_to('paste/comparar/'.$paste->padre,'Comparar');
+    }*/
+    echo form_tag("paste/nuevo");
+    echo '<label for = paste[titulo] > Titulo: </label>'.text_field_tag('paste.titulo', 'size: 50');
+    echo '<br/>'.textarea_tag('paste.post');
+    echo '<br/><label for = paste[expiracion] > Borrar despues de: </label>'.select_tag('paste[expiracion]',array("n" => "Nunca", "m" => "10 Minutos","h" => "1 Hora","d" => "1 Dia","e" => "1 Mes"), 'selected: '.$paste->expiracion);
+    echo '<label for = paste[syntax] > Sintaxis: </label>'.select_tag('paste[syntax]',array( "Php" => "php", "Plain" => "text","Sql" => "sql", "Xml" => "xml","Css" => "css","Xml" => "html","JScript" => "javascript"), 'selected: '.$paste->syntax);
+    echo hidden_field_tag('paste[padre]', 'value: '.$paste->id);
+    echo submit_tag('Enviar una correccion');
+    echo end_form_tag();
+    
+    echo '</fieldset>';
+}
+else{
+    echo '<fieldset><legend>Nuevo Post</legend>';
+    echo form_tag("paste/nuevo");
+    echo '<label for = paste[titulo] > Titulo: </label>'.text_field_tag('paste.titulo', 'size: 50');
+    
+    echo '<br/>'.textarea_tag('paste.post');
+    
+    echo '<br/><label for = paste[expiracion] > Borrar despues de: </label>'.select_tag('paste[expiracion]',array("n" => "Nunca", "m" => "10 Minutos","h" => "1 Hora","d" => "1 Dia","e" => "1 Mes"), 'selected: ');
+    echo '<label for = paste[syntax] > Sintaxis: </label>'.select_tag('paste[syntax]',array("Plain" => "Seleccione...", "Php" => "php", "Plain" => "text","Sql" => "sql", "Xml" => "xml","Css" => "css","Xml" => "html","JScript" => "javascript"));
+    
+    echo submit_tag('Enviar');
+    echo end_form_tag();
+    echo '</fieldset>';
+}
+echo javascript_include_tag('jquery-1.4.3.min');
+?>
+
+<script type="text/javascript">
+SyntaxHighlighter.all();
+jQuery("#editve").click(function () {
+  jQuery("#coderZone").toggle("slow");
+  jQuery("#versiones").toggle("slow");
+  jQuery("#editv").toggle("slow");
+});  
+</script>

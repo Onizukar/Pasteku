@@ -1,0 +1,37 @@
+<br/>
+<?php
+View::content();
+if (Auth::is_valid()){?>
+    Estas logueado con: <?php echo Auth::get('email');?><br/>
+    <?php echo $avatar; ?>
+    <?php echo link_to('salir',"Logout General");?>
+
+<h2>Lista de paste</h2>
+<?php
+View::content();
+
+View::partial('datatable_option2',false,array('Model'=>$result,
+                                                      'Campos'=>$campos,
+                                                      'id' => 'pastes_list',
+                                                      'info' => 'ver/',
+                                                      'edit' => null,
+                                                      'del' => 'paste/borrar/'));
+echo link_to('nuevo','Nuevo Post');
+
+?>
+
+
+<?php }else {?>
+    <!--<fb:login-button onlogin="location.href='/app/acceso/loginFB/'" length="long" v="2"><fb:intl>Conectate con Facebook</fb:intl></fb:login-button>
+    <br/>-->
+    <?php echo link_to('acceso/_redirect/',img_tag('lighter.png','title: Sign in with Twitter', 'alt: Sign in with Twitter')); ?>
+    
+ 
+    <?php echo form_tag('acceso/index'); ?>
+    Nombre de usuario: <?php echo text_field_tag('username'); ?>
+    <br/>Contraseña: <?php echo text_field_tag('password');
+    echo '<br/>'.submit_tag('Ingresar').end_form_tag();
+    echo link_to('registro','Registrarme');
+    ?>
+
+<?php }?>

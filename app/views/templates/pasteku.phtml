@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=<?php echo APP_CHARSET ?>' />
+        <title>Pasteku</title>
+        <?php echo stylesheet_link_tag('bienvenida');
+        echo stylesheet_link_tag('style');
+        echo stylesheet_link_tag('exception');
+        echo stylesheet_link_tag('pasteku');
+        echo stylesheet_link_tag('thickbox');
+        echo stylesheet_link_tag('syntax/shCoreDefault');
+        echo stylesheet_link_tags(); ?>
+        
+        <!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+        <![endif]-->
+    </head>
+    <body>
+        <div id ="wrap">
+            <div id='header'>
+                <h1><?php echo link_to('','Pasteku'); ?></h1>
+                <!-- <h2>Pega ? comparte ? edita ? comparte</h2>-->
+                <div id ="logo">
+                    <div class ="baseT">
+                        <div class ="tapaT">Ctrl &#9830</div>
+                    </div>
+                    <div class ="baseT">
+                        <div class ="tapaT">V</div>
+                    </div>
+                </div>
+            </div>
+            <div id='content'>
+                <?php View::partial('menu_user') ?>
+                <div id='main'>
+                    <?php View::content(); ?>    
+                </div>
+                <div id='panel'>
+                    
+                </div>
+            </div>
+        </div>
+        <div id='footer'>
+            <?php View::partial('footer') ?>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<?php
+View::content();
+echo form_tag('acceso/registro');?>
+Nombre de usuario: <?php echo input_field_tag('cuenta.username');?>
+<br/>
+Contraseña: <?php echo password_field_tag('cuenta.password');?>
+<br/>
+Email: <?php echo input_field_tag('cuenta.email');?>
+<br/>
+<?php echo submit_tag("Envio") ?>
+
+<br/>
+<?php echo end_form_tag();
+echo link_to('acceso','Identificarse');
+?>

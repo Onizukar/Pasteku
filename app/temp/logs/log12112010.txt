@@ -1,0 +1,117 @@
+[Fri, 12 Nov 10 10:39:05 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 10:39:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 11:08:05 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 11:08:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 11:13:29 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 11:13:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 11:55:31 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 11:55:31 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:38:59 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:38:59 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:41:10 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:41:10 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:41:10 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 75
+[Fri, 12 Nov 10 12:41:11 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '75' LIMIT 1
+[Fri, 12 Nov 10 12:41:11 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:41:11 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:41:11 -0500][DEBUG] UPDATE paste SET padre = '45',post = '<?php
+
+Flash::error(\'hola\');
+class Paste extends ActiveRecord {
+    //public $logger = true;
+    //public $debug = true;
+    
+    public function initialize(){
+        $this->validates_email_in(\'email\');
+    }
+
+}
+?>
+//jeje',syntax = 'Php',expiracion = 'd',titulo = 'corregido',visitas = '1',cuenta_id = NULL,creado_at = '2010-11-08 13:18:05' WHERE  id = '75'
+[Fri, 12 Nov 10 12:41:11 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '75'
+[Fri, 12 Nov 10 12:41:16 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:41:16 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 75
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '75' LIMIT 1
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] UPDATE paste SET padre = '45',post = '<?php
+
+Flash::error(\'hola\');
+class Paste extends ActiveRecord {
+    //public $logger = true;
+    //public $debug = true;
+    
+    public function initialize(){
+        $this->validates_email_in(\'email\');
+    }
+
+}
+?>
+//jeje',syntax = 'Php',expiracion = 'd',titulo = 'corregido',visitas = '2',cuenta_id = NULL,creado_at = '2010-11-08 13:18:05' WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:04 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '75'
+[Fri, 12 Nov 10 12:42:06 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:06 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 75
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '75' LIMIT 1
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] UPDATE paste SET padre = '45',post = '<?php
+
+Flash::error(\'hola\');
+class Paste extends ActiveRecord {
+    //public $logger = true;
+    //public $debug = true;
+    
+    public function initialize(){
+        $this->validates_email_in(\'email\');
+    }
+
+}
+?>
+//jeje',syntax = 'Php',expiracion = 'd',titulo = 'corregido',visitas = '3',cuenta_id = NULL,creado_at = '2010-11-08 13:18:05' WHERE  id = '75'
+[Fri, 12 Nov 10 12:42:09 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '75'
+[Fri, 12 Nov 10 12:42:10 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:10 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:14 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:14 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:26 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:26 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:42:48 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:42:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 12:43:01 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 12:43:01 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 16
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '16' LIMIT 1
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '16'
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '16'
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] UPDATE paste SET padre = '15',post = '    //public $logger = true;
+    //public $debug = true;
+    casa \"hola\";
+$perro = 456;
+$perr2o = 4.56;
+$parto  = \'jojo\';
+    public function initialize(){
+        $this->validates_email_in(\'email\');
+    }
+    //public $logger = true;
+    //public $debug = true;
+}
+?>',syntax = 'Php',expiracion = 'd',titulo = NULL,visitas = '1',cuenta_id = '0',creado_at = '2010-07-15 23:20:20' WHERE  id = '16'
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '16'
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 14:15:11 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 14:15:15 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 14:15:15 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 14:48:30 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 14:48:30 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 21:30:51 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 21:30:51 -0500][DEBUG] DESCRIBE `cuenta`
+[Fri, 12 Nov 10 21:33:44 -0500][DEBUG] DESCRIBE `paste`
+[Fri, 12 Nov 10 21:33:44 -0500][DEBUG] DESCRIBE `cuenta`

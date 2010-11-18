@@ -1,0 +1,14 @@
+[Sun, 14 Nov 10 00:04:17 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 00:04:17 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 00:29:29 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 00:29:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 01:24:35 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 01:24:35 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 20:46:57 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 20:46:57 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 20:53:45 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 20:53:45 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 23:07:50 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 23:07:50 -0500][DEBUG] DESCRIBE `cuenta`
+[Sun, 14 Nov 10 23:53:40 -0500][DEBUG] DESCRIBE `paste`
+[Sun, 14 Nov 10 23:53:40 -0500][DEBUG] DESCRIBE `cuenta`

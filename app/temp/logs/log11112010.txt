@@ -1,0 +1,662 @@
+[Thu, 11 Nov 10 14:27:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:27:46 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:29:18 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:29:18 -0500][DEBUG] INSERT INTO paste (padre,post,syntax,expiracion,titulo,cuenta_id,creado_at) VALUES (91,'456789456
+
+visitado
+
+asera??
+
+<ojala>','Xml','n','789',1,'2010-11-11 14:29:18')
+[Thu, 11 Nov 10 14:29:18 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '92' LIMIT 1
+[Thu, 11 Nov 10 14:29:18 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:06 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:49 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:51 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:30:52 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:31:11 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:31:16 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:31:16 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:31:29 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:32:53 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:33:01 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:33:01 -0500][DEBUG] INSERT INTO paste (padre,post,syntax,expiracion,titulo,cuenta_id,creado_at) VALUES (92,'456789456
+
+visitado
+
+asera??
+
+<ojala>
+jaja','Xml','n','789',1,'2010-11-11 14:33:01')
+[Thu, 11 Nov 10 14:33:01 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '93' LIMIT 1
+[Thu, 11 Nov 10 14:33:01 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:33:04 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:33:06 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:33:09 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:34:12 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:34:23 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:34:27 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:50 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:35:53 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:36:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:36:45 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:02 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:02 -0500][DEBUG] INSERT INTO paste (padre,post,syntax,expiracion,titulo,cuenta_id,creado_at) VALUES (93,'456789456
+
+visitado
+
+asera??
+
+<ojala>
+jaja
+
+v1','Xml','n','789',1,'2010-11-11 14:37:02')
+[Thu, 11 Nov 10 14:37:02 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '94' LIMIT 1
+[Thu, 11 Nov 10 14:37:02 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:04 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:09 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:09 -0500][DEBUG] INSERT INTO paste (padre,post,syntax,expiracion,titulo,cuenta_id,creado_at) VALUES (93,'456789456
+
+visitado
+
+asera??
+
+<ojala>
+jaja
+
+v2','Xml','n','789',1,'2010-11-11 14:37:09')
+[Thu, 11 Nov 10 14:37:09 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '95' LIMIT 1
+[Thu, 11 Nov 10 14:37:09 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:13 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:23 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:40 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:40 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:49 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:37:55 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:38:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:49:12 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:49:12 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:49:12 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 94
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '94' LIMIT 1
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '94'
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '94'
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] UPDATE paste SET padre = '0',post = '456789456
+
+visitado
+
+asera??
+
+<ojala>
+jaja
+
+v1',syntax = 'Xml',expiracion = 'n',titulo = '789',visitas = '3',cuenta_id = '1',creado_at = '2010-11-11 14:37:02' WHERE  id = '94'
+[Thu, 11 Nov 10 14:49:23 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '94'
+[Thu, 11 Nov 10 14:49:24 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:49:24 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:49:24 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:49:25 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:49:25 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:49:25 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:50:39 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:50:39 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:50:46 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:50:46 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:50:46 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '1',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 14:50:47 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 14:50:59 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:50:59 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:54:21 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:54:21 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:54:23 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:54:23 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:54:23 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:54:25 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:54:25 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:56:16 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:56:16 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:56:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:56:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:57:17 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:57:17 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:58:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:58:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:19 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:19 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:33 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:33 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:41 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:45 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:45 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:45 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:46 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:46 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:46 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:47 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:49 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:49 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:49 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:51 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:51 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 14:59:51 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 14:59:52 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 14:59:52 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:00:05 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '2',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:00:20 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '3',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:22 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '4',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:01:23 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '5',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:10 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '6',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:37 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '7',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:38 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '8',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:47 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '9',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:48 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '10',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:02:58 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '11',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:26 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '12',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:04:58 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '13',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:00 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '14',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:13 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '15',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:28 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:36 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:36 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:36 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 15:05:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:37 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '16',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:39 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:41 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 78
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '17',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:05:43 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:05:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:54 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:54 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:05:56 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:05:56 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:06:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:06:00 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 45
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '45' LIMIT 1
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '45'
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '45'
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] UPDATE paste SET padre = '44',post = '  php
+
+Flash::error(\'hola\');
+class Paste extends ActiveRecord {
+    //public $logger = true;
+    //public $debug = true;
+    
+    public function initialize(){
+        $this->validates_email_in(\'email\');
+    }
+
+}
+?>
+//jeje',syntax = 'Php',expiracion = 'd',titulo = NULL,visitas = '1',cuenta_id = '0',creado_at = '2010-07-16 21:30:11' WHERE  id = '45'
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '45'
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:03 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:44 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:44 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:48 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '18',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 15:18:58 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 15:19:01 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:19:01 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:19:01 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 15:19:08 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:19:08 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:24:24 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:24:24 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:24:28 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:24:28 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:26:33 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:26:33 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:26:45 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:26:45 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:26:46 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:26:46 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:28:49 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:28:49 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:29:26 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:29:26 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:31:28 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:31:28 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:32:08 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:32:08 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:32:29 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:32:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:32:34 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:32:34 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:34:01 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:34:01 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:34:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:34:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:34:06 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:34:06 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:35:19 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:35:19 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:35:24 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:35:24 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:35:29 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:35:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:38:06 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:38:06 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:41:22 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:41:22 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:42:44 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:42:44 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:25 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:25 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:39 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:39 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:42 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:42 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:47 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '' AND password = 'd41d8cd98f00b204e9800998ecf8427e'
+[Thu, 11 Nov 10 15:43:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:43:57 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:43:57 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:44:35 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:44:35 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:44:35 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:44:35 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:44:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:44:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:44:47 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:44:47 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:46:39 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:46:39 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:46:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:46:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:15 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:15 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:21 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:21 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:37 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '' AND password = 'd41d8cd98f00b204e9800998ecf8427e'
+[Thu, 11 Nov 10 15:47:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:46 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:46 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:48 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '' AND password = 'd41d8cd98f00b204e9800998ecf8427e'
+[Thu, 11 Nov 10 15:47:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:47:49 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:47:49 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:49:07 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:49:07 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:52:33 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:52:33 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:54:58 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:54:58 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:55:14 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:55:14 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:57:25 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:57:25 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:57:34 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:57:34 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:58:16 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:58:16 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:58:37 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:58:37 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:59:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:59:00 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:59:19 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:59:19 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:59:44 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:59:44 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 15:59:55 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 15:59:55 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:01:11 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:01:11 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:01:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:01:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:04:11 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:04:11 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:04:24 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:04:24 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:04:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:04:43 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:05:27 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:05:27 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:05:52 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:05:52 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:07:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:07:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:07:18 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:07:18 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:07:40 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:07:40 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:07:52 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:07:52 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:17 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:17 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:29 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:08:32 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:32 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:32 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:08:33 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:33 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:33 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 79
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '79' LIMIT 1
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '79'
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] UPDATE paste SET padre = '78',post = 'jajaaj
+
+<hola>
+borrando al padre',syntax = 'Plain',expiracion = 'n',titulo = 'titulo bine largo para ver como queda el datagrid',visitas = '19',cuenta_id = '1',creado_at = '2010-11-08 15:00:51' WHERE  id = '79'
+[Thu, 11 Nov 10 16:08:35 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '79'
+[Thu, 11 Nov 10 16:08:38 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:38 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:38 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE id = 95
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] SELECT id,padre,post,syntax,expiracion,titulo,visitas,cuenta_id,creado_at FROM paste WHERE id = '95' LIMIT 1
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '95'
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] SELECT COUNT(*) FROM paste WHERE  id = '95'
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] UPDATE paste SET padre = '0',post = '456789456
+
+visitado
+
+asera??
+
+<ojala>
+jaja
+
+v2',syntax = 'Xml',expiracion = 'n',titulo = '789',visitas = '3',cuenta_id = '1',creado_at = '2010-11-11 14:37:09' WHERE  id = '95'
+[Thu, 11 Nov 10 16:08:39 -0500][DEBUG] SELECT id,titulo,creado_at FROM paste WHERE padre = '95'
+[Thu, 11 Nov 10 16:08:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:41 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:08:43 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:43 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:08:53 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:08:53 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:09:52 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:09:52 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:20:10 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:20:10 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:20:48 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:20:48 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:26 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:26 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:36 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:36 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:38 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:38 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:41 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:41 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:21:42 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:21:42 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:22:14 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:22:55 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:22:55 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] SELECT COUNT(*) FROM cuenta  WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e'
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] SELECT id,username,password,twitter,facebook,email,creado_at FROM cuenta WHERE username = '123456' AND password = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:23:00 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:23:03 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:23:03 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:23:05 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:23:05 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:23:05 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:23:06 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:23:06 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:24:12 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:24:12 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:24:12 -0500][DEBUG] SELECT id,titulo,syntax,visitas,expiracion,creado_at FROM paste WHERE cuenta_id = '1'
+[Thu, 11 Nov 10 16:24:13 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:24:13 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:24:18 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:24:18 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:27:22 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:27:22 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:27:50 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:27:50 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:27:51 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:27:51 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:40:38 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:40:38 -0500][DEBUG] DESCRIBE `cuenta`
+[Thu, 11 Nov 10 16:40:42 -0500][DEBUG] DESCRIBE `paste`
+[Thu, 11 Nov 10 16:40:42 -0500][DEBUG] DESCRIBE `cuenta`

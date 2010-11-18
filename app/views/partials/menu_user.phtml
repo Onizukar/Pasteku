@@ -1,0 +1,58 @@
+<div id="dreglog">
+    <?php
+    if(Auth::is_valid()){
+        echo link_to('panel','Panel');
+        echo ' '.link_to('salir','Cerrar sesion');
+    }
+    else{
+        echo javascript_include_tag('jquery-1.4.3.min');
+        echo javascript_include_tag('thickbox-compressed');
+        ?>
+    
+    
+    <a href="#TB_inline?height=250&width=300&inlineId=loginnn&modal=true" title="Login" id ="reglog" class="thickbox">Ingresar</a>
+    <a href="#TB_inline?height=300&width=400&inlineId=regisss&modal=true" title="Login" id ="reglog" class="thickbox">Registrarse</a>
+    <?php } ?>
+</div>
+
+<div id="loginnn">
+<?php
+echo link_to('acceso/_redirect/',img_tag('lighter.png','title: Sign in with Twitter', 'alt: Sign in with Twitter'));
+echo form_tag('acceso/index');
+?>
+<table>
+    <tr>
+        <td>Nombre de usuario:</td><td><?php echo text_field_tag('username'); ?></td>
+    </tr>
+    <tr>
+        <td>Contraseña:</td><td><?php echo password_field_tag('password'); ?></td>
+    </tr> 
+    <tr>
+        <td><?php echo submit_tag('Ingresar'); ?></td><td><input type="button" onclick="tb_remove()" value="Cerrar"></td>
+    </tr> 
+</table>
+<?php echo end_form_tag(); ?>
+</div>
+
+<div id="regisss">
+<?php
+echo link_to('acceso/_redirect/',img_tag('lighter.png','title: Sign in with Twitter', 'alt: Sign in with Twitter'));
+echo form_tag('acceso/registro');?>
+<table>
+    <tr>
+        <td>Nombre de usuario:</td><td><?php echo text_field_tag('cuenta.username'); ?></td>
+    </tr>
+    <tr>
+        <td>Contraseña:</td><td><?php echo text_field_tag('cuenta.password'); ?></td>
+    </tr>
+    <tr>
+        <td>Email</td><td><?php echo input_field_tag('cuenta.email'); ?></td>
+    </tr>
+    <tr>
+        <td><?php echo submit_tag('Registrarme e ingresar'); ?></td><td><input type="button" onclick="tb_remove()" value="Cerrar"></td>
+    </tr> 
+</table>
+<?php echo end_form_tag(); ?>
+</div>
+
+<div class="clear"></div>

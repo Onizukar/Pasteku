@@ -1,0 +1,91 @@
+<?php
+/**
+ * Pasteku - KumbiaPHP Pastebin
+ * PHP version 5
+ * LICENSE
+ *
+ * This source file is subject to the GNU/GPL that is bundled
+ * with this package in the file docs/LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to oonizukar@gmail.com so we can send you a copy immediately.
+ *
+ * @author Camilo Tilaguy <oonizukar@gmail.com>
+ */
+
+echo javascript_include_tag('jquery-1.4.3.min');
+echo javascript_include_tag('dataTables.min');
+   echo stylesheet_link_tag('uithemes/redmond/ui.all');
+   echo stylesheet_link_tag('demo_table_jui');
+   echo stylesheet_link_tag('demo_page');
+?>
+
+<div <?php echo "id = ".$id; ?> width="90%">
+        <table  border="1px" width="100%" class="ajax">
+        <thead><tr>
+                <?php foreach( $Campos  as $titulo => $valor): ?>
+                        <th> <?php echo $titulo ?></th>
+                <?php endforeach; 
+		if($info or $edit or $del)
+		{
+			echo "<th>Opciones</th>";
+		}
+		?>
+        </tr></thead>
+        <tbody>
+                <?php foreach( $Model as $model): 
+                         echo tr_color_class( 'tr_primary', 'tr_secondary' );
+                         foreach($Campos as  $campos): ?>
+                                <td><?php echo $model->$campos ?></td>
+                        <?php endforeach; ?>
+			<?php
+			if($info or $edit or $del)
+			{
+				echo "<td><center>";
+				if($info)
+				{
+					echo link_to($info.$model->id,img_tag('view.png', 'class: edit','alt: Ver detalles', 'title: Ver Post'));
+				}
+				if($edit)
+				{
+					echo link_to($edit.$model->id,img_tag('datagrid/edit.gif', 'class: edit','alt: Editar registro'));
+				}
+				if($del)
+				{
+					echo link_to($del.$model->id,'confirm: Esta seguro de eliminar el registro?' ,img_tag('delete.png', 'class: edit','alt: Borrar registro', 'title: Borrar Post'));
+				}
+				echo "</center></td>";
+			}
+			?>
+                        </tr>
+                <?php endforeach; ?>
+        </tbody></table>
+</div>
+
+<script>
+    $(document).ready(function() {
+            $(<?php echo "\"#".$id."\""; ?>).dataTable({
+                "bJQueryUI": true,
+                "sPaginationType": "full_numbers",
+                "oLanguage": {
+                    "sProcessing":   "Procesando...",
+                    "sLengthMenu":   "Mostrar _MENU_ registros",
+                    "sZeroRecords":  "No se encontraron resultados",
+                    "sInfo":         "Mostrando desde _START_ hasta _END_ de _TOTAL_ registros",
+                    "sInfoEmpty":    "Mostrando desde 0 hasta 0 de 0 registros",
+                    "sInfoFiltered": "(filtrado de _MAX_ registros en total)",
+                    "sInfoPostFix":  "",
+                    "sSearch":       "Buscar:",
+                    "sUrl":          "",
+                    "oPaginate": {
+                        "sFirst":    "Primero",
+                        "sPrevious": "Anterior",
+                        "sNext":     "Siguiente",
+                        "sLast":     "Último"
+                    }
+                }
+	    });
+    });
+
+</script>

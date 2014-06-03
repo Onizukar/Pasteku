@@ -36,6 +36,12 @@ class PasteController extends ApplicationController {
 
     public function nuevo() {
         if($this->has_post('paste')) {
+            if($this->post('paste.micaptcha')!=6){
+    			Flash::error("La respuesta del captcha es 6. Intentelo de nuevo.");
+    			$this->paste = $this->post('paste');
+    			return ;
+    		}
+    		
             $paste = new Paste($this->post('paste'));
             if(!$paste->create()){
                 Flash::error("No se guardo el paste");

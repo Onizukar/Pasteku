@@ -31,6 +31,7 @@ if(isset($paste) and is_object($paste)){
     echo '<br/><label for = paste[expiracion] > Borrar despues de: </label>'.select_tag('paste[expiracion]',array("n" => "Nunca", "m" => "10 Minutos","h" => "1 Hora","d" => "1 Dia","e" => "1 Mes"), 'selected: '.$paste->expiracion);
     echo '<label for = paste[syntax] > Sintaxis: </label>'.select_tag('paste[syntax]',array( "Php" => "php", "Plain" => "text","Sql" => "sql", "Xml" => "xml","Css" => "css","Xml" => "html","JScript" => "javascript"), 'selected: '.$paste->syntax);
     echo hidden_field_tag('paste[padre]', 'value: '.$paste->id);
+    echo '<label for = paste[micaptcha] > Cuanto es 3+3? = </label>'.text_field_tag('paste.micaptcha', 'size: 3');
     echo submit_tag('Enviar una correccion');
     echo end_form_tag();
     
@@ -45,7 +46,7 @@ else{
     
     echo '<br/><label for = paste[expiracion] > Borrar despues de: </label>'.select_tag('paste[expiracion]',array("n" => "Nunca", "m" => "10 Minutos","h" => "1 Hora","d" => "1 Dia","e" => "1 Mes"), 'selected: ');
     echo '<label for = paste[syntax] > Sintaxis: </label>'.select_tag('paste[syntax]',array("Plain" => "Seleccione...", "Php" => "php", "Plain" => "text","Sql" => "sql", "Xml" => "xml","Css" => "css","Xml" => "html","JScript" => "javascript"));
-    
+    echo '<label for = paste[micaptcha] > Cuanto es 3+3? = </label>'.text_field_tag('paste.micaptcha', 'size: 3');
     echo submit_tag('Enviar');
     echo end_form_tag();
     echo '</fieldset>';
